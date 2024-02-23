@@ -1,7 +1,10 @@
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+
+const App = () => {
   return (
     <div className="App">
-        <h1> aaa </h1>
+        <Header title= "Türk Trademark Similarity" />
     </div>
   );
 }
