@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+
+  
+}
+.right-side{
+  flex: 1;
+  justify-content: space-between;
+  background-color: #222222;
+}
+
+.flex-row{
+  display: flex;
+  
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.notification-bell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.trademark-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 80px;
+  height: 36px;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+}
