@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState , useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -6,7 +6,22 @@ import Button from "./components/Button/Button";
 import Search from "./components/Search/Search";
 import "./App.css";
 
+
 const App = () => {
+  const [data,setData]= useState([{}])
+
+  useEffect ( () => {
+    fetch("/").then ( 
+      res=>  res.json()
+    ).then(
+      data=> {
+        setData(data)
+        console.log(data)
+      }
+    )
+
+  }, [])
+
   return (
     <Router>
       <div>
