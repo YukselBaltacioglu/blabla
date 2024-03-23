@@ -1,8 +1,9 @@
 .image {
-    width: calc(20% - 30px); /* Sol kenara 30px'lik bir boşluk bırakarak %20genişlik */
+    width: 220px; /* Sol kenara 30px'lik bir boşluk bırakarak %20genişlik */
     border-radius: 5px;
-    margin-left: 30px; /* Sol kenara 30px'lik bir boşluk bırak */
+    margin-left: 10px; /* Sol kenara 30px'lik bir boşluk bırak */
     float: left; /* Resimleri yan yana yerleştir */
     box-sizing: border-box; /* Kenar boşluğunu genişlik hesabına dahil et */
+    margin-bottom: 35px;
   }
   

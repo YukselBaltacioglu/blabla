@@ -1,4 +1,8 @@
 import React from 'react';
+import styles from './ButtonBox.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
 import { useHistory } from 'react-router-dom'; // React Router kullanıyorsanız
 
 const ButtonBox = ({ icon, title, description, link }) => {
@@ -9,14 +13,13 @@ const ButtonBox = ({ icon, title, description, link }) => {
   };
 
   return (
-    <div className="box">
-      <div className="icon">{icon}</div>
-      <div className="content">
-        <h2>{title}</h2>
+    <div className={styles.box} onClick={handleClick}>
+      <FontAwesomeIcon className={styles.icon} icon={icon} />
+      <div className={styles.content}>
+        <h2 className={styles.title}>{title}</h2>
         <p>{description}</p>
-        <button onClick={handleClick}>Yönlendir</button>
       </div>
-    </div>
+  </div>
   );
 };
 

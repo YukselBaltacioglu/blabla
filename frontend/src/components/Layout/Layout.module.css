@@ -1,12 +1,28 @@
 .right_part{
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-direction: column; /* İçeriği dikey olarak hizalar */
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
     width: 100%;
     padding: 28px 0;
-    margin-left: 80px
+    margin-left: 80px;
+    text-align: left;
 }
+
 .image_container {
     padding: 35px 0;
+    margin-left: 120px;
+    gap: 10px; /* Bileşenler arasındaki boşluk */
+}
+.button_container{
+    display: flex;
+    flex-wrap: wrap; /* Eğer container boyutu yeterli değilse, bileşenler alt satıra geçsin */
+    gap: 10px; /* Bileşenler arasındaki boşluk */
+    margin-left: 120px;
+}
+.how{
+    padding:0 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
 }

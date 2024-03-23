@@ -1,7 +1,7 @@
 .dashboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: flex; 
+    flex-direction: column; /* İçeriği dikey olarak hizalar */
+    justify-content: center; 
     align-items: center;
     width: 100%;
     margin-left: 100px;
@@ -19,12 +19,13 @@
   
   .subtitle {
     font-size: 1.1rem;
-    color: rgb(232, 142, 24);
+    color: rgb(215, 150, 65);
     margin-bottom: 1rem;
+    font-weight: 350;
   }
   
   .description {
     font-size: 1rem;
     color: #3f3f3f;
-    line-height: 1.5;
+    font-weight: 500;
   }
