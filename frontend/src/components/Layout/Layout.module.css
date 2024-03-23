@@ -1,0 +1,12 @@
+.right_part{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 28px 0;
+    margin-left: 80px
+}
+.image_container {
+    padding: 35px 0;
+}

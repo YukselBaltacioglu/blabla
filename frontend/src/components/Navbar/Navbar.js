@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome ,faGear, faXmark,faCircleQuestion} from '@fortawesome/free-solid-svg-icons';
 
-import styles from './styles.module.css';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (

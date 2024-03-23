@@ -1,0 +1,82 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #efeeee;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  color: rgb(67, 58, 58);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 5;
+  width: 100%;
+  height: 90%;
+}
+
+.navItem {
+  color: rgb(67, 58, 58);
+  padding: 0.5rem 0;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.navItem a {
+  color: rgb(67, 58, 58);
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: #ccc;
+}
+
+.navItem:hover {
+  color: #ccc;
+}
+.spacer {
+  flex-grow: 1; /* Add this line */
+}
+.navButton {
+  background-color: rgb(232, 142, 24);
+  border: none;
+  color: black;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+}
+
+.navButton:hover {
+  color: #ccc;
+}
+.navItemIcons span {
+  margin-left: 0.5rem;
+}
